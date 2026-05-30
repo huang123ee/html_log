@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>创客课程学习日志 | 黄上校</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft Yahei", sans-serif;
+        }
+        body {
+            background-color: #f5f5f5;
+            line-height: 1.8;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        section {
+            background-color: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #3498db;
+        }
+        h3 {
+            color: #34495e;
+            margin: 15px 0 10px;
+        }
+        p {
+            color: #555;
+            margin-bottom: 12px;
+            font-size: 16px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 15px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        pre {
+            background-color: #282c34;
+            color: #abb2bf;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 15px 0;
+            font-size: 14px;
+        }
+        code {
+            background-color: #f8f9fa;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: Consolas, monospace;
+        }
+        ul {
+            margin-left: 25px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <header>
+            <h1>创客课程学习日志</h1>
+            <p>姓名：黄上校 | 学号：2025112326 | 计算机与人工智能学院<p>
+        </header>
+
+        <!-- 1. 个人简介 -->
+        <section id="intro">
+            <h2>1. 个人简介</h2>
+            <p>大家好，我是计算机与人工智能学院2025级的黄上校，喜欢电子制作、3D打印、嵌入式开发与开源技术。</p>
+            <p>本日志完整记录了我在创客课程中的全部学习过程、实践项目与成长收获，涵盖从代码到实物的全流程实践。</p>
+        </section>
+
+        <!-- 2. 什么是创客 -->
+        <section id="maker">
+            <h2>2. 什么是创客</h2>
+            <p>创客（Maker）是指出于兴趣与爱好，努力把各种创意转变为现实的人，核心精神是<strong>创新、实践、分享、开源</strong>。</p>
+            <p>创客文化强调动手实践、跨界融合，通过技术手段解决实际问题，将想法从概念落地为实物，是数字时代创新实践的重要载体。</p>
+        </section>
+
+        <!-- 3. Git -->
+        <section id="git">
+            <h2>3. Git学习记录</h2>
+            <p>Git是分布式版本控制系统，用于代码和项目的版本管理，本次作业使用Gitee平台托管HTML学习日志。</p>
+            <h3>常用Git命令</h3>
+            <pre>
+git init          # 初始化本地仓库
+git clone 地址     # 克隆远程仓库到本地
+git add .         # 将所有修改添加到暂存区
+git commit -m "提交说明"  # 提交修改到本地仓库
+git push          # 将本地修改推送到远程Gitee仓库
+git pull          # 拉取远程仓库的最新更新
+            </pre>
+        </section>
+
+        <!-- 4. 3D设计、3D打印 -->
+        <section id="3dprint">
+            <h2>4. 3D设计与3D打印</h2>
+            <p>学习了FDM打印原理、切片参数设置（层高、填充率、支撑结构），解决了打印翘边、层纹等常见问题。</p>
+
+<!-- 两张图同一行 + 缩小 + 美观 -->
+<div style="display: flex; gap: 15px; justify-content: center; margin: 20px 0;">
+  <img src="images/zuopin1.jpg" alt="3D模型展示" width="400" style="border-radius: 8px;">
+  <img src="images/zuopin1_jianmo.jpg" alt="3D建模展示" width="600" style="border-radius: 8px;">
+</div>
+        </section>
+
+        <!-- 5. 电子焊接 -->
+        <section id="weld">
+            <h2>5. 电子焊接练习</h2>
+            <p>系统学习了电烙铁使用、直插/贴片元件焊接、焊点处理技巧，掌握了虚焊、漏焊的排查与修复方法。</p>
+            <p>完成了面包板电路搭建、基础电子元件（电阻、电容、LED、传感器）的调试实践。</p>
+            <img src="images/hanjie.jpg" alt="电子焊接练习作品"width="500" style="border-radius: 8px;">
+            <img src="images/hanjie2.jpg" alt="电子焊接练习作品"width="500" style="border-radius: 8px;">
+
+        </section>
+
+        <!-- 6. 嵌入式计算 -->
+        <section id="embed">
+            <h2>6. 嵌入式计算学习</h2>
+            <p>学习了Arduino/ESP32开发板的使用，掌握了GPIO控制、传感器数据读取、串口通信等基础技能。</p>
+            <h3>示例代码：LED闪烁</h3>
+            <pre>
+void setup() {
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(1000);
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(1000);
+}
+            </pre>
+            <img src="../images/arduino-example.jpg" alt="嵌入式开发板实践">
+        </section>
+
+        <!-- 7. 中期创客项目 -->
+        <section id="mid-project">
+            <h2>7. 中期创客项目</h2>
+            <h3>项目介绍</h3>
+            <p>项目名称：智能避障小车，团队成员：黄上校、徐志康，项目目标：实现基于语音识别的自动开关门系统。</p>
+            <h3>成果演示</h3>
+	    <img src="images/zhongqi1.jpg" alt="中期项目实物展示"width="500" style="border-radius: 8px;">
+	    <img src="images/zhongqi2.jpg" alt="中期项目实物展示"width="500" style="border-radius: 8px;">
+	    <img src="images/zhongqi3.jpg" alt="中期项目实物展示"width="1000" style="border-radius: 8px;">
+
+        </section>
+
+        <!-- 8. PCB设计 -->
+        <section id="pcb">
+            <h2>8. PCB设计学习</h2>
+            <p>使用立创EDA完成PCB原理图绘制、元件选型、PCB布线，学习了阻抗匹配、走线规范、EMC设计等基础技能。</p>
+            <p>完成了从原理图到PCB打样的全流程实践，掌握了Gerber文件生成、PCB生产工艺相关知识。</p>
+            <img src="images/pcb1.jpg" alt="PCB设计原理图">
+            <img src="images/pcb2.jpg" alt="PCB设计原理图">
+        </section>
+
+        <!-- 9. 设计思维 -->
+        <section id="design">
+            <h2>9. 设计思维总结</h2>
+            <p>设计思维的核心五步骤：<strong>共情（Empathize）→ 定义问题（Define）→ 头脑风暴（Ideate）→ 原型制作（Prototype）→ 测试（Test）</strong>。</p>
+
+            <h3>一、共情（Empathize）：走进用户真实场景</h3>
+            <p>通过访谈和场景观察，我们聚焦校园中学生的日常痛点，核心用户画像与需求如下：</p>
+            <ul>
+              <li><strong>自习/备考学生</strong>：图书馆、自习室长时间学习，专注学习时极易忘记喝水，长期下来易导致身体缺水、疲劳，影响学习效率</li>
+              <li><strong>实验室项目学生</strong>：连续制作、调试项目，被任务进度完全占据注意力，饮水行为被忽略，且缺乏外部提醒</li>
+            </ul>
+            <p>调研中我们发现，现有手机闹钟、桌面贴纸等提醒方式极易被忽略，且频繁打断学习/工作节奏，用户真正需要的是<strong>不打扰、高感知、能适配学习场景的温和提醒方式</strong>。</p>
+
+            <h3>二、定义问题（Define）：提炼核心矛盾</h3>
+            <p>基于共情调研的结果，我们将用户痛点转化为清晰、可解决的设计问题：</p>
+            <p>如何设计一款适配校园学习场景的智能装置，在不打断用户专注状态的前提下，温和提醒长时间学习/工作的学生及时饮水，改善其饮水习惯？</p>
+
+            <h3>三、头脑风暴（Ideate）：发散与收敛方案</h3>
+            <p>围绕定义的问题，我们开展了多轮方案 brainstorm，梳理出不同方向的解决方案并逐步收敛：</p>
+            <ul>
+              <li>信号形式：LED灯光渐变/呼吸灯、低蜂鸣提示音、水杯震动提醒</li>
+              <li>最终方案：桌面智能水杯底座+LED灯光+低音量蜂鸣</li>
+            </ul>
+
+            <h3>四、原型制作（Prototype）：从想法到实体迭代</h3>
+            <p>结合快速原型的制作要求，分阶段搭建并迭代了装置原型：</p>
+            <ul>
+              <li>功能原型：基于Arduino开发板，实现定时触发LED灯光与蜂鸣器的提醒功能</li>
+              <li>结构原型：设计适配水杯的桌面底座结构，优化元件布局，缩小装置体积</li>
+              <li>交互优化：增加“喝水后复位”的交互逻辑，用户拿起水杯后提醒自动停止</li>
+            </ul>
+
+            <h3>五、测试（Test）：回归用户验证与迭代优化</h3>
+            <p>我们邀请了目标用户（自习学生）进行场景测试，收集反馈并针对性优化：</p>
+            <ul>
+              <li>蜂鸣器打扰 → 降低音量，增加灯光优先级</li>
+              <li>定时不灵活 → 增加可调节定时周期</li>
+              <li>底座易滑动 → 优化防滑设计</li>
+            </ul>
+
+            <p>在创客项目中，通过用户需求调研定义问题，通过迭代原型不断优化方案，最终实现满足需求的创新产品。</p>
+        </section>
+
+                <!-- 10. 期末创新项目 -->
+        <section id="final-project">
+            <h2>10. 期末创新项目</h2>
+            <h3>项目名称：智能喝水提醒装置</h3>
+            <h3>项目介绍</h3>
+            <p>结合前期设计思维调研结果，本次期末项目落地实现<strong>智能喝水提醒装置</strong>。针对学生长时间学习、调试项目时忘记饮水的痛点，装置通过传感器检测水杯状态，搭配灯光与低音蜂鸣实现温和提醒，全程不干扰用户专注状态。项目综合运用3D打印、嵌入式开发、电路焊接、PCB设计等课程所学技能，完成从创意到实物的全流程开发。</p>
+            
+            <h3>整体制作流程</h3>
+            <ul>
+                <li>创意与方案设计：依托设计思维流程确定产品功能、结构与交互逻辑，明确硬件选型与代码框架；</li>
+                <li>结构设计与3D打印：完成装置底座、外壳的三维建模，设置切片参数并打印成型，完成外观结构制作；</li>
+                <li>电路搭建与焊接：完成主控板、传感器、LED指示灯、蜂鸣器等元器件焊接与线路连接，排查虚焊、接触不良等问题；</li>
+                <li>程序开发调试：基于ESP32/Arduino编写控制代码，实现定时提醒、状态检测、提醒复位等核心功能；</li>
+                <li>PCB优化与整体组装：结合PCB设计知识优化电路布局，整合结构与电路，反复测试并优化功能稳定性。</li>
+            </ul>
+
+            <h3>功能说明</h3>
+            <p>装置可设定固定饮水间隔，计时结束后优先通过LED灯光进行提醒；若长时间未取水，再启动低音量蜂鸣辅助提醒。用户拿起水杯饮水后，装置自动复位并重新开始计时，适配自习、实验室工作等多种校园场景。</p>
+
+            <h3>成果演示</h3>
+            <img src="images/qimo1.jpg" alt="智能喝水提醒装置实物展示"width="500" style="border-radius: 8px;">
+
+	    <img src="images/qimo2.jpg" alt="智能喝水提醒装置实物展示"width="500" style="border-radius: 8px;">
+	    <img src="images/qimo3.jpg" alt="智能喝水提醒装置实物展示">
+
+        </section>
+    </div>
+</body>
+</html>
